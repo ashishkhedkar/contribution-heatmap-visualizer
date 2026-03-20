@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contributions Heatmap</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Contributions Heatmap</h1>
+
+  <!-- Month Labels -->
+  <div id="months" class="months"></div>
+
+  <div class="wrapper">
+    <!-- Day Labels -->
+    <div class="days">
+      <span></span>
+      <span>Mon</span>
+      <span></span>
+      <span>Wed</span>
+      <span></span>
+      <span>Fri</span>
+      <span></span>
+    </div>
+
+    <!-- Heatmap -->
+    <div id="heatmap"></div>
+  </div>
+
+  <!-- Legend -->
+  <div class="legend">
+    <span>Less</span>
+    <div class="legend-box" style="background:#f0f4ff"></div>
+    <div class="legend-box" style="background:#99bbff"></div>
+    <div class="legend-box" style="background:#4d88ff"></div>
+    <div class="legend-box" style="background:#1a66ff"></div>
+    <div class="legend-box" style="background:#003cb3";></div>
+    <span>More</span>
+  </div>
+
+  <script src="data/data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
